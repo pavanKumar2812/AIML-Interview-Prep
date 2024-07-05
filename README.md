@@ -1,8 +1,6 @@
 # 🧠 AI/ML Definitions and Explanations
--------------------------
 
 1. 📚 What is TensorFlow?
-
 
 TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
 
