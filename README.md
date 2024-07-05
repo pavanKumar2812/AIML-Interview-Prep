@@ -1,12 +1,34 @@
 # 🧠 AI/ML Definitions and Explanations
 
 1. 📚 What is TensorFlow?
+   TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
 
-TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
-
-2. 🤔 Why Use TensorFlow?
+3. 🤔 Why Use TensorFlow?
 
 Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
+
+3. What is Artifical Intelligence?
+   
+2. What is Machine Learning?
+3. Can you explain types of Machine Learning?
+4. What is Deep Learning?
+5. What is a neuron?
+6. Explain briefly about input layer, hidden layer and output layer?
+7. What is shallow neural network?
+8. what is an optimizer? why do we use it?
+9. what is activation function?
+10. Types of ativation funtions?
+11. what is loss functions?
+12. How do we evaluate a model?
+13. What is SGD(Stochastic Gradient Descent)?
+14. What is Adam?
+15. What is MAE(Mean Absolute Error)?
+16. What is MSE(Mean Squared Error)?
+17. what is accuracy? which we used it in evaluating metrics for Classification model?
+18. What is Confussion Metrics?
+
+
+
 
 3. 🔢 What is a Tensor?
 
