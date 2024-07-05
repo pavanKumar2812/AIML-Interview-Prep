@@ -6,7 +6,7 @@
 
 3. 🤔 Why Use TensorFlow?
 
-Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
+   Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
 
 3. What is Artifical Intelligence?
    
