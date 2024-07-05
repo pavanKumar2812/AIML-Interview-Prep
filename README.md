@@ -1,6 +1,8 @@
 # 🧠 AI/ML Definitions and Explanations
+========================================
 
 1. 📚 What is TensorFlow?
+-------------------------
 
 TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
 
@@ -19,6 +21,7 @@ Or it could be some other form of information (or data) you want to represent wi
 If you've ever used NumPy, tensors are kind of like NumPy arrays. The main difference between tensors and NumPy arrays is that tensors can be used on GPUs (Graphical Processing Units) and TPUs (Tensor Processing Units).
 
 4. 🔢 What is a Tensor Rank?
+   
 The number of directions a tensor can have in an N-dimensional space is called the "Rank" of the tensor.
 
 The rank is denoted R.
@@ -46,6 +49,7 @@ The rank is denoted R.
 Technically, all the above are tensors (meaning scalar, vector, and matrix), but when we speak of tensors, we generally speak of matrices with a dimension larger than 2 (R > 2).
 
 5. 📐 What is the Shape, Rank, and Size of a Tensor?
+   
 At the time of model building or preprocessing data, most of the time is spent matching the mismatched tensor shapes. So you'll want to get different pieces of information from the tensors. In particular, you should know the following tensor vocabulary:
 
 * **Shape**: The length (number of elements) of each of the dimensions of a tensor.
