@@ -1,13 +1,16 @@
 # 🧠 AI/ML Definitions and Explanations
 ============================================
 
-##📚 What is TensorFlow?
+📚 What is TensorFlow?
+
 TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
 
-##🤔 Why Use TensorFlow?
+🤔 Why Use TensorFlow?
+
 Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
 
-##🔢 What is a Tensor?
+🔢 What is a Tensor?
+
 A Tensor is an N-dimensional matrix where the matrix could be almost anything you can imagine. It is a generalization of vectors and matrices to higher dimensions.
 
 It could be numbers themselves (using tensors to represent the price of houses).
