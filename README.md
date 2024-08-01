@@ -1,14 +1,41 @@
 # 🧠 AI/ML Definitions and Explanations
 
-1. 📚 What is TensorFlow?
+1. What is Artificial Intelligence?
+   Artificial Intelligence is a set of technologies, those make the computers enable to see, understand and translate spoken or written languages, recommendation systems and make some intelligence predictions on data.
+   In other words, Artifical Intelligence is a field of study, where we try to make computers smarter. It's mainly mimicking human intelligence.
+
+2. What is Machine Learning?
+   Machine Learning is a subset of Artificial Intelligence. We train the systems with the data, then systems makes some intelligence predictions on data without being explictly programmed.
+   In other words, Machine Learning (ML) is finding patterns in the data, and use those patterns to predict or classify the things.
+
+3. How many types of Machine Learning are there? Explain them?
+   There are mainly three types of Machine Learnings are there:
+   They are:
+   1. Supervised Learning:
+      Supervised Learning is a type of Machine Learning. Where we train the system on the labeled data.
+      In other words, Supervised Learning is a type of Machine Learning. where we get a label with the output.
+      
+   3. Unsupervised Learning:
+      It's a type of Machine Learning. In this Learning we train the systems on unlabeled data.
+      In other words, Unsupervised Learning is a type of Machine Learning. Where we get only the output without the label
+      
+   3. Reinforcement Learning:
+      Reinforcement Learning is also one type of Machine Learning. It is quit differnet when we compare it with the supervised and unsupervised learning. In this method, there is an agent and a environment is there, whether the agent perform well, it get the rewards other wise it get punishment.
+
+4.  Explain Semi-Supervised Learning?
+    Machine Learning is broadly classified into three types. Supervised, Unsupervised and Reinforcement Learning. Semi-supervised learning is also a type of Machine Learning, it falls between supervised learning and unsupervised learning. It suit best when the training data is huge and it's unlabeled, some way labeling is not happening. In those cases we can use semi-supervised learning where we train the model with the small amount of labeled data and large amount of unlabeled data.
+
+5. What is Deep Learning?
+   Deep Learning is a subset of Machine Learning. Where 
+7. 📚 What is TensorFlow?
    
    TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
 
-3. 🤔 Why Use TensorFlow?
+8. 🤔 Why Use TensorFlow?
 
    Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
 
-3. What is Artifical Intelligence?
+3. 
    
 2. What is Machine Learning?
 3. Can you explain types of Machine Learning?
