@@ -30,39 +30,38 @@
     Machine Learning is broadly classified into three types. Supervised, Unsupervised and Reinforcement Learning. Semi-supervised learning is also a type of Machine Learning, it falls between supervised learning and unsupervised learning. It suit best when the training data is huge and it's unlabeled, some way labeling is not happening. In those cases we can use semi-supervised learning where we train the model with the small amount of labeled data and large amount of unlabeled data.
 
 9. What is Deep Learning?
-   Deep Learning is a subset of Machine Learning. Where 
-10. 📚 What is TensorFlow?
-   
-   TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
 
-11. 🤔 Why Use TensorFlow?
+   Deep Learning is a subset of Machine Learning. It uses multilayered neural network called Deep Neural Network, where we use them to similate the decision-making power of human brain. Some form of the deep learning powers most of the Artificial Intelligence application in our day to day life.
 
-   Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
+10. What is Artifical Neural Network?
 
-3. 
-   
-2. What is Machine Learning?
-3. Can you explain types of Machine Learning?
-4. What is Deep Learning?
-5. What is a neuron?
-6. Explain briefly about input layer, hidden layer and output layer?
-7. What is shallow neural network?
-8. what is an optimizer? why do we use it?
-9. what is activation function?
-10. Types of ativation funtions?
-11. what is loss functions?
-12. How do we evaluate a model?
-13. What is SGD(Stochastic Gradient Descent)?
-14. What is Adam?
-15. What is MAE(Mean Absolute Error)?
-16. What is MSE(Mean Squared Error)?
-17. what is accuracy? which we used it in evaluating metrics for Classification model?
-18. What is Confussion Metrics?
+    Artificial Neural Network (ANN) is a deep learning algorithm, where it is inspired by the structure and function of the Biological Neural Network of human brain. It is an approch on mimic the human intelligence, it woking is same as the biological neural network, but doesn't exactly resemble its working.  
 
+    Artificial Neural Network (ANN) would only accepts the numerical or structured data as input. To accept the non-numerical or unstructured data formats such as Image, Text, Speech, Convolutional Neural Network (CNN) or Recursice Neural Network (RNN) are used respectively.
 
+12. What is Neuron?
 
+    In the field of Artificial Intelligence, A Neuron in a neural network is a fundamental unit of processing and produce an output.
 
-3. 🔢 What is a Tensor?
+13. What is shallow neural network?
+    
+    A shallow neural network is a neural network, it consist only one hidden layer in between the input and output layers.
+
+14. What is a node in Neural Network?
+
+    A Node in Neural Network is a computational unit that performs a weighted sum of its input, and applies a activation function to its sum, and produce an output, that can be passed to the subsequent nodes or used as a final result. Nodes are organised in a layers essitential for finding complex patterns in data.
+
+15. Explain briefly about input layer, output and hidden layers?
+
+    An ANN (Artificial Neural Network) is consist the similar structure and functional of the biological neural system of human brain. But, doesn't exactly resemble its working. It consist of input, output and n-hidden layers.
+
+    In Neural Network a layer is a collection of nodes together it performs the data. Layers are organized in sequentially, and each type of the layer serves specific purpose.
+     
+    **Input Layer:** The first layer, which receives the raw data. Each node in this layer corresponds to a feature or variable in the data.
+    **Hidden Layer:** These layers are come after the input layer and before the output layer. Hidden layers can vary in number and size, and nodes apply weights and bias, activation functions to the inputs they received.
+    **Output Layer:** This is the final layer, which produces the networks prediction or result. Each node in this layer corresponds to a different output or class, based on the problem. (Example: Classification or Regression).
+
+16. 🔢 What is a Tensor?
 
 A Tensor is an N-dimensional matrix where the matrix could be almost anything you can imagine. It is a generalization of vectors and matrices to higher dimensions.
 
@@ -72,7 +71,7 @@ It could be text (using tensors to represent words).
 Or it could be some other form of information (or data) you want to represent with numbers.
 If you've ever used NumPy, tensors are kind of like NumPy arrays. The main difference between tensors and NumPy arrays is that tensors can be used on GPUs (Graphical Processing Units) and TPUs (Tensor Processing Units).
 
-4. 🔢 What is a Tensor Rank?
+17. 🔢 What is a Tensor Rank?
    
 The number of directions a tensor can have in an N-dimensional space is called the "Rank" of the tensor.
 
@@ -100,7 +99,7 @@ The rank is denoted R.
 
 Technically, all the above are tensors (meaning scalar, vector, and matrix), but when we speak of tensors, we generally speak of matrices with a dimension larger than 2 (R > 2).
 
-5. 📐 What is the Shape, Rank, and Size of a Tensor?
+18. 📐 What is the Shape, Rank, and Size of a Tensor?
    
 At the time of model building or preprocessing data, most of the time is spent matching the mismatched tensor shapes. So you'll want to get different pieces of information from the tensors. In particular, you should know the following tensor vocabulary:
 
@@ -108,3 +107,28 @@ At the time of model building or preprocessing data, most of the time is spent m
 * **Rank**: The number of tensor dimensions. A scalar has rank 0, a vector has rank 1, a matrix has rank 2, and a tensor has rank n.
 * **Axis** or **Dimension**: A particular dimension of a tensor.
 * **Size**: The total number of items in the tensor.
+    
+19. 📚 What is TensorFlow?
+   
+   TensorFlow is an open-source end-to-end machine learning library for preprocessing data, modeling data, and serving models (getting them into the hands of others).
+
+20. 🤔 Why Use TensorFlow?
+
+   Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
+
+
+8. what is an optimizer? why do we use it?
+9. what is activation function?
+10. Types of ativation funtions?
+11. what is loss functions?
+12. How do we evaluate a model?
+13. What is SGD(Stochastic Gradient Descent)?
+14. What is Adam?
+15. What is MAE(Mean Absolute Error)?
+16. What is MSE(Mean Squared Error)?
+17. what is accuracy? which we used it in evaluating metrics for Classification model?
+18. What is Confussion Metrics?
+
+
+
+
