@@ -116,18 +116,30 @@
 
    Rather than building machine learning and deep learning models from scratch, it's more likely you'll use a library such as TensorFlow. This is because it contains many of the most common machine learning functions inbuilt you'll want to use.
 
+21. What is Bias-Variance trade-off?
+    Bias-Variance trade-off is finding the sweet spot between the overfitting and the underfitting
+    
+    Bias is the difference between the average prediction of our model and the true values which we are trying to predict. Model with the high bias pay very little attention to the training data and oversimplifies the model. This leads to high error on training and test data.
+    Vaiance is the difference in the fit of the datasets is called variance.
+    *High Variance - Overfitting*
+    *High Bias - Underfitting*
 
-8. what is an optimizer? why do we use it?
-9. what is activation function?
-10. Types of ativation funtions?
-11. what is loss functions?
-12. How do we evaluate a model?
-13. What is SGD(Stochastic Gradient Descent)?
-14. What is Adam?
-15. What is MAE(Mean Absolute Error)?
-16. What is MSE(Mean Squared Error)?
-17. what is accuracy? which we used it in evaluating metrics for Classification model?
-18. What is Confussion Metrics?
+22. How is KNN different from a K-mean?
+    At first, it may seems similar but it's not. K-Nearest algorithm is a supervised classification algorithm while K-mean algorithm is a unsupervised clustering algorithm, while the mechanism may seen similar at first using K-Points, they are totally different algorithms.
+    In order to work with K-Nearest Neighbour algorithm we need labelled data for the unlabelled points. K-Mean clustering algorithm requires only a set of unlabelled points and a threshold, the algorithm will take unlabelled points and gradually learn how to cluster them into groups by computing the mean of the distance between different points.
+    The critical difference here is that KNN needs labelled data and thus it is a supervised learning, while k-mean doesn't need labelled data it's a unsupervised learning.
+
+23. How do you implement the K-mean algorithm?
+    * Specify number of clusters K
+    * Initialize centroid by first shuffling the dataset and then randomly selecting K data points for the centroid without replacement.
+    * Keep iterating until there is no change to the centroids i, e assignment of the data points to the clusters isn't changing.
+      * Compute the sum of the squared distance between points and all the centroids.
+      * Assign each data point to the closest cluster(centroid).
+      * Compute the centroids for the clusters by taking the average of the all data points that belong to each cluster.
+     
+24. How to 
+      
+    
 
 
 
