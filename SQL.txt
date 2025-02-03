@@ -166,3 +166,36 @@ Write an SQL query to find the departments with more than 3 employees.
 SELECT department FROM employees 
 GROUP BY department
 HAVING COUNT(employee_id) > 3;
+
+Question 26:
+
+Write an SQL query to find departments where the total salary expense is more than 500,000.
+SELECT department
+FROM employees
+GROUP BY department
+HAVING SUM(salary) > 500000;
+
+Question 27:
+
+Write an SQL query to find employees who have the same salary as someone else in the company.
+SELECT *
+FROM employees
+GROUP BY salary
+HAVING COUNT(salary) > 1;
+
+Question 28:
+
+Write an SQL query to find the department with the highest average salary.
+SELECT department
+FROM employees
+GROUP BY department
+HAVING AVG(salary) > (SELECT AVG(salary) FROM employees)
+
+or 
+
+SELECT DISTINCT department
+FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees)
+
+Question 29:
+
