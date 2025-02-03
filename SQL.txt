@@ -94,6 +94,12 @@ Write an SQL query to fetch the second highest salary from the employees table.
 SELECT MAX(salary)
 FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);
 
+OR 
+
+SELECT MAX(salary)
+FROM employees
+WHERE salary NOT IN (SELECT MAX(salary) FROM employees);
+
 Question 16:
 
 Write an SQL query to fetch employees who do not have a manager. (Assume the manager_id column is NULL for employees without a manager.)
