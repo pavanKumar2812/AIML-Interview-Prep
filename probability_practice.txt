@@ -1,0 +1,77 @@
+Question 1:
+A fair coin is flipped three times. What is the probability of getting at least two heads?
+
+Ans) We are flipping a fair coin 3 times, and we want to find the probability of getting at least two heads.
+     "At least two heads" means we want the probability of getting either 2 heads or 3 heads.
+     Finding probability of exactly 2 heads(X=2) 
+           Number of Total outcomes. For each coin flip, there are 2 possible outcomes, heads or tails. So, the total number of possible
+           outcomes when flipping the coin 3 times are 2 ** 3 = 8 outcomes.
+                            P(X=2) = (n! / r!(n-r)!) * ((probability) ** r) * (probability of getting a failure in one trail) ** n-r
+                                   = (3! / 2!(3-2)!) * ( (1/2) ** 2 ) * ( 1 - (1/2) ** 3-2)
+                                   = (6 / 2) * (1/4) * (1/2) 
+                                   = 3 * (1/8)
+                                   = 3/8
+    Finding the Probability of Exactly 3 Heads (P(X=3))
+          Now, you also need to calculate the probability of getting exactly 3 heads. For this, we can use the same formula
+                            P(X=3) = 3! / 3!(3-3)! * ((1/2) ** 3) * ( (1 - 1/2) ** 3-3 )
+                                   = 1/8
+
+    Finding the Probability of Exactly 2 Heads (P(X=2))
+          P(at least 2 heads) = P(X=2)+P(X=3)
+                              = 3/8 + 1/8
+                              = 4/8
+                              = 1/2
+                              = 0.5
+Question 2:
+A bag contains 5 red balls and 3 blue balls. If you randomly pick one ball, what is the probability that it is red?
+
+Ans) Total Number of Balls = 5 + 3 = 8
+     P(red) = 5/8 = 0.625
+
+Question 3:
+A fair die is rolled twice. What is the probability that the sum of the two rolls is at least 9?
+
+Ans) Total Possible outcomes 
+     Since a fair die has 6 sides, and when we roll it twice, the total number of possible outcomes is 6 * 6 = 36
+
+      2 → 1 way (1+1)
+      3 → 2 ways (1+2, 2+1)
+      4 → 3 ways (1+3, 2+2, 3+1)
+      5 → 4 ways (1+4, 2+3, 3+2, 4+1)
+      6 → 5 ways (1+5, 2+4, etc.)
+      7 → 6 ways (1+6, 2+5, etc.)
+      8 → 5 ways
+      9 → 4 ways
+      10 → 3 ways
+      11 → 2 ways
+      12 → 1 way
+
+      For sum ≥ 9, just sum the counts:
+          4(sum 9)+3(sum 10)+2(sum 11)+1(sum 12) = 10
+          P(Sum of two die outcome >= 9) = 10 / 36 
+                                         = 5 / 18
+                                         = 0.2778
+
+Question 4:
+A box contains 10 balls:
+4 are red,
+3 are blue,
+3 are green.
+If you randomly pick 2 balls without replacement, what is the probability that both balls are red?
+
+Ans) Total Possible outcomes = 4 + 3 + 3
+                             = 10
+
+                        P(1st red) = 4 / 10
+                        P(2nd red) = 3 / 9
+
+    Now, multiply both probabilities:
+                       P(Both Red) = (4/10) * (3/9)
+                                   = (12/90)
+                                   = 2/15
+                                   = 0.1333
+
+          
+      
+
+     
