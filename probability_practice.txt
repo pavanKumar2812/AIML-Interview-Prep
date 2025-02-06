@@ -217,8 +217,41 @@ Ans) P(both balls are the same color) = ((5/12)*(4/11)) + ((4/12)*(3/11)) + ((3/
                                       = 19/66
                                       = 0.2879
 
+Question 21:
+A die is rolled twice. What is the probability that the first roll is a 4 and the second roll is a 2?
 
+Ans) Die is rolled twice means 6 * 6 = 36
+     P(First 4 and Second 2) = (1/6) * (1/6)
 
+Question 22:
+In a deck of 52 cards, what is the probability of drawing a queen or a red card?
+
+Ans) 
+     There are 4 queens in a deck.
+     There are 26 red cards (13 diamonds + 13 hearts).
+     However, two red queens (Queen of Hearts and Queen of Diamonds) are being counted twice, so we need to subtract that overlap.
+          
+               P(queen or a red) = (4/52) + (26/52) - (2/52) 
+                                 = 28/52
+                                 = 7/13
+Question 23:
+A bag contains 6 red balls, 3 green balls, and 2 blue balls. If two balls are drawn at random, what is the probability that they are both blue?
+
+Ans) P(both are blue) = (2/11) * (1/10)
+                      = 2/110
+                      = 1/55
+
+Question 24:
+A jar contains 5 white marbles, 7 blue marbles, and 8 red marbles. If two marbles are drawn without replacement, what is the probability that both marbles are red?
+
+Ans) P(both are red) = (8/20) * (7/19)
+
+Question 25:
+You have a standard deck of 52 cards. What is the probability of drawing a black card (spades or clubs)?
+
+Ans) P(black card) = 26/52
+                   = 1/2
+                   = 0.5
 
 
 
