@@ -71,7 +71,155 @@ Ans) Total Possible outcomes = 4 + 3 + 3
                                    = 2/15
                                    = 0.1333
 
-          
-      
+Question 5:
+A deck of cards has 52 cards(standard deck). If you draw 2 cards without replacement, what is the probability that both cards are aces?
+
+Ans) Total cards in pack of cards = 52
+     Total aces = 4
+
+     P(aces) = P(First Ace) + P(eond Ace | First Ace)
+             = (4/52) * (3/51)
+             = 12 / 2652
+             = 1/221
+             = 0.0045
+
+Question 6:
+A bag contains 5 red marbles, 7 green marbles, and 8 blue marbles. If you randomly pick 2 marbles without replacement, what is the probability that both marbles are green?
+
+Ans) Total number of outcomes = 5 + 7 + 8 
+                              = 20
+     P(both are green marbles) = (7/20) * (6/19)
+                               = 42/380
+                               = 21/190
+                               = 0.1105
+
+Question 7:
+A box contains 6 white balls, 4 black balls, and 5 yellow balls. if you randomly draw 2 balls without replacement, what is the probability that one ball is white and the other is black?
+
+Ans) Total number of outcomes = 6 + 4 + 5
+                              = 15
+     P(one ball is white and the other is black) = ( (6/15) * (4/14) ) + ( (4/15) * (6/14) )
+                                                 = 24/210 + 24/210
+                                                 = 48/210
+                                                 = 8/35
+                                                 = 0.2286
+
+Question 8:
+A bag contains 3 red marbles, 5 green marbles, and 7 blue marbles. If you randomly pick 3 marbles without replacement, what is the probability that all three marbles are blue?
+
+Ans) Total number of outcomes = 3 + 5 + 7
+                              = 15
+     P(all three marbles are blue) = (7/15)*(6/14)*(5/13)
+                                   = 210/2730
+                                   = 7/91
+                                   = 0.0769
+
+Question 9:
+A deck of 52 cards has 4 suits (hearts, diamonds, clubs, spades), each containing 13 cards (Ace through King). If you draw 2 cards without replacement, what is the probability that both cards are hearts?
+
+Ans) P(both cards are hearts) = (13/52) * (12/51)
+                              = 156/2652
+                              = 1/17
+                              = 0.058
+
+
+Question 10:
+In a lottery, there are 1000 tickets in total. 3 of the tickets are winning tickets, and the rest are losing tickets. If you buy 2 tickets, what is the probability that both tickets are losing?
+
+Ans): Total tickets = 1000
+      Winning tickets = 3
+      P(2 tickets are losing) = (997/10000) * (996/999)
+                              = 993012/999000
+                              = 0.9939
+
+Question 11:
+A bag contains 10 white balls, 15 black balls, and 25 red balls. If you randomly select 3 balls without replacement, what is the probability that all three balls are red?
+
+Ans) Total balls = 10 + 15 + 25
+                 = 50
+     P(three balls are red) = (25/50) * (24/49) * (23/48)
+                            = 13800/117600
+                            = 23/196
+                            = 0.1173
+
+Question 12:
+A drawer contains 5 red socks, 3 blue socks, and 7 green socks. If you randomly select 2 socks without replacement, what is the probability that both socks are blue?
+
+Ans) Total number of outcomes = 5 + 3 + 7
+                              = 15
+     P(2 socks are blue) = (3/15) * (2/14)
+                         = 6/210
+                         = 1/35
+                         = 0.0286
+
+Question 13:
+In a class of 30 students, 12 are girls and 18 are boys. If you randomly select 2 students without replacement, what is the probability that both students are boys?
+
+Ans) P(both students are boys) = (18/30) * (17/29)
+                               = 306/870
+                               = 51/145
+                               = 0.3517
+
+Question 14:
+A box contains 4 white balls, 5 black balls, and 6 yellow balls. If you randomly select 3 balls without replacement, what is the probability that all three balls are yellow?
+
+Ans) P(all three balls are yellow) = (6/15) * (5/14) * (4/13)
+                                   = 2/45
+                                   = 0.0444
+
+Question 15:
+In a deck of 52 cards, there are 4 aces, 12 face cards (Jack, Queen, King), and the rest are number cards. If you randomly select 2 cards without replacement, what is the probability that both cards are aces?
+
+Ans) P(both aces) = (4/52) * (3/51)
+                  = 12/2652
+                  = 1/221
+                  = 0.0045
+
+Question 16:
+A jar contains 6 red marbles, 8 green marbles, and 10 blue marbles. If you randomly select 2 marbles without replacement, what is the probability that one marble is red and the other is green?
+
+Ans) Total number of outcomes = 6 + 8 + 10 = 24
+     P(red & green) = ((6/24) * (8/23)) + ((8/24) * (6/23))
+                    = 9/552
+                    = 4/23 
+                    = 0.1739
+
+Question 17:
+A class of 40 students contains 15 boys and 25 girls. If you randomly select 3 students without replacement, what is the probability that all three students are girls?
+
+Ans) P(all 3 students are girls) = (25/40) * (24/39) * (23/38)
+                                 = 13800/592320
+                                 = 115/4936
+                                 = 0.0233
+
+Question 18:
+A bag contains 7 red balls, 5 green balls, and 8 blue balls. If you randomly select 2 balls without replacement, what is the probability that one ball is red and the other is blue?
+
+Ans) P(red & blue) = ( (7/20) * (8/19) ) + ( (8/20) * (7/19) )
+
+Question 19:
+A deck of 52 cards contains 4 aces, 12 face cards, and the remaining are number cards. If you randomly select 3 cards without replacement, what is the probability that none of the cards is a face card?
+
+Ans) Total number of cards in a deck of cards = 52
+     Total face cards = 12
+     Total Number cards = 9
+     Total aces cards = 4
+
+     P(Non of the cards is a face cards) = (40/52) * (39/52) * (38/52)
+                                         = 59280
+                                         = 246/551
+                                         = 0.445
+
+Question 20:
+A box contains 5 red balls, 4 green balls, and 3 blue balls. If you randomly select 2 balls without replacement, what is the probability that both balls are of the same color?
+
+Ans) P(both balls are the same color) = ((5/12)*(4/11)) + ((4/12)*(3/11)) + ((3/12)*(2/11))
+                                      = 19/66
+                                      = 0.2879
+
+
+
+
+
 
      
