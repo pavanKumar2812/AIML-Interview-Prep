@@ -1,3 +1,136 @@
-===== STATISTICS NOTES =====
+# ==================================
+#        STATISTICS NOTES
+# ==================================
 
--- What is Statistics? --
+## -- What is Statistics? --
+- **Definition:** Statistics is the study of data collection, organization, analysis, and interpretation.
+- **Purpose:** Helps in decision-making based on data insights by identifying trends, patterns, and relationships.
+
+# ==================================
+#       TYPES OF STATISTICS
+# ==================================
+
+1. **Descriptive Statistics**  
+   - Organizes and summarizes data.  
+   - Uses tables, graphs, and numerical measures.  
+   - **Example:** Calculating the average height of students in a class.
+
+2. **Inferential Statistics**  
+   - Uses a sample to make predictions about a population.  
+   - Techniques include hypothesis testing, regression analysis, etc.  
+   - **Example:** Predicting election results based on a voter survey.
+
+# ==================================
+#    POPULATION (N) AND SAMPLE (n)
+# ==================================
+
+- **Population (N):** The entire group under study.
+  - **Example:** All employees in a company.
+
+- **Sample (n):** A subset of the population used for analysis.
+  - **Example:** A survey of 50 employees out of 1000.
+          +----------------------+
+          |     POPULATION (N)    |  <--- Entire group
+          |  (e.g., All students) |
+          +----------------------+
+                   |
+                   |  Sample Selection
+                   v
+          +----------------------+
+          |      SAMPLE (n)       |  <--- Subset of population
+          | (e.g., 100 students)  |
+          +----------------------+
+
+
+# ==================================
+#       SAMPLING TECHNIQUES
+# ==================================
+
+## **Definition:**  
+Sampling techniques are methods used to select a subset (sample) from a population to make statistical inferences. The goal is to ensure the sample represents the population accurately. Sampling techniques are chosen based on the specific use case.
+
+## **Types of Sampling Techniques:**
+
+## **1. Random Sampling (Simple Random Sampling - SRS)**  
+   - Each member of the population has an equal chance of being selected.  
+   - **Example:** Picking names randomly from a hat.  
+
+   **Diagram:**
+  -----------------------------------
+  | Population: A B C D E F G H I J |
+  -----------------------------------
+             | Random Selection
+             v
+  -----------------------------------
+  | Sample: C  E  H  A  G           |
+  -----------------------------------
+
+
+## **2. Stratified Sampling**  
+- The population is divided into groups (strata) based on a characteristic, and random samples are taken from each group. The groups must be non overlapping. 
+- **Example:** Selecting students from different grades in a school.  
+
+**Diagram:**
+-----------------------------------
+| Grade 1: A  B  C  D            |
+| Grade 2: E  F  G  H            |
+| Grade 3: I  J  K  L            |
+-----------------------------------
+         |   Sample from each group
+         v
+-----------------------------------
+| Sample: A  D  F  G  J  L        |
+-----------------------------------
+
+## **3. Systematic Sampling**  
+- Every nth member of the population is selected.  
+- **Example:** Selecting every 5th customer entering a store.  
+
+**Diagram:**
+-----------------------------------
+| A  B  C  D  E  F  G  H  I  J  K  L |
+-----------------------------------
+  Sample: C     F     I     L  
+
+## **4. Cluster Sampling**  
+- The population is divided into clusters, and entire clusters are randomly selected.  
+- **Example:** Selecting entire classrooms in a school instead of individual students.  
+
+**Diagram:**
+-----------------------------------
+| Class 1: A  B  C  D            |
+| Class 2: E  F  G  H            |
+| Class 3: I  J  K  L            |
+-----------------------------------
+         |   Random selection of a cluster
+         v
+-----------------------------------
+| Selected Cluster: Class 2       |
+| Students: E  F  G  H            |
+-----------------------------------
+
+## **5. Convenience Sampling**  
+- Selecting samples that are easiest to reach.  
+- **Example:** Surveying people at a nearby mall instead of randomly across the city.  
+
+**Diagram:**
+-----------------------------------
+| A  B  C  D  E  F  G  H  I  J  K  L |
+-----------------------------------
+  Sample (Nearby People): D  E  F  G  
+
+# ==================================
+#        SUMMARY TABLE
+# ==================================
+
+| **Sampling Technique**   | **Method**                              | **Example**                                  |
+|--------------------------|-----------------------------------------|----------------------------------------------|
+| **Random Sampling**      | Equal chance for all                    | Lottery draw                                 |
+| **Stratified Sampling**  | Dividing population into subgroups      | Sampling students from each school grade     |
+| **Systematic Sampling**  | Selecting every nth individual          | Picking every 5th visitor in a store         |
+| **Cluster Sampling**     | Selecting entire groups randomly        | Selecting entire classrooms in a school      |
+| **Convenience Sampling** | Selecting easiest-to-reach individuals  | Surveying people in a nearby coffee shop     |
+
+# ==================================
+#       Variables
+# ==================================
