@@ -134,3 +134,37 @@ Sampling techniques are methods used to select a subset (sample) from a populati
 # ==================================
 #       Variables
 # ==================================
+
+## **Definition:**  
+A variable is any characteristic, number, or quantity that can be measured or counted. It represents different values in a dataset.
+
+## **Types of Sampling Techniques:**
+
+1. Based on Measurement Scale:
+   a) Qualitative(Categorical) Variables:
+      - Describe vategories or labels without a numerical value.
+      - Example: Gender(Male/Female), Colors(Red/Blue), Blood Type(A/B/O).
+   b) Quantitative(Numerical) Variables:
+      - Represent measurable quantities and have numerical values.
+         - Discrete Variables: Can take only specific values(Whole numbers).
+           Example: Number of students in a class, Number of cars in a parking lot.
+         - Continous Variables: Can take any value within a range.
+           Example: Height(5.6ft, 5.8ft), Temperature(22.5°C, 36.8°C).
+2. Based on Relationship with Study
+   a) 
+
+                +--------------------+
+                |      Variables      |
+                +--------------------+
+                          |
+     ------------------------------------------
+     |                                        |
++----------------+                   +----------------+
+| Qualitative    |                   | Quantitative   |
+| (Categorical)  |                   | (Numerical)    |
++----------------+                   +----------------+
+     |                                        |
++------------+                     +----------------+----------------+
+| Nominal    |                     | Discrete       | Continuous     |
+| (Labels)   |                     | (Countable)    | (Measurable)   |
++------------+                     +----------------+----------------+
