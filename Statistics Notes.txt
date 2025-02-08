@@ -47,7 +47,9 @@
 # ==================================
 
 ## **Definition:**  
-Sampling techniques are methods used to select a subset (sample) from a population to make statistical inferences. The goal is to ensure the sample represents the population accurately. Sampling techniques are chosen based on the specific use case.
+Sampling techniques are methods used to select a subset (sample) from a population to make statistical inferences. 
+The goal is to ensure the sample represents the population accurately. 
+Sampling techniques are chosen based on the specific use case.
 
 ## **Types of Sampling Techniques:**
 
@@ -138,11 +140,11 @@ Sampling techniques are methods used to select a subset (sample) from a populati
 ## **Definition:**  
 A variable is any characteristic, number, or quantity that can be measured or counted. It represents different values in a dataset.
 
-## **Types of Sampling Techniques:**
+## **Types of Variables:**
 
 1. Based on Measurement Scale:
    a) Qualitative(Categorical) Variables:
-      - Describe vategories or labels without a numerical value.
+      - Describe categories or labels without a numerical value.
       - Example: Gender(Male/Female), Colors(Red/Blue), Blood Type(A/B/O).
    b) Quantitative(Numerical) Variables:
       - Represent measurable quantities and have numerical values.
@@ -151,8 +153,21 @@ A variable is any characteristic, number, or quantity that can be measured or co
          - Continous Variables: Can take any value within a range.
            Example: Height(5.6ft, 5.8ft), Temperature(22.5°C, 36.8°C).
 2. Based on Relationship with Study
-   a) 
+   a) Independent Variable:
+      - The variable that is controlled or changed in an experiment.
+        Example: Amount of fertilizer used on crops.
+   b) Dependent Variable:
+      - The variable that is measued and affected by the independent variable.
+        Example: Growth of crops(affected by fertilizer)
+3. Based on Data Collection
+   a) Primary Variable
+      - Collected directly from the source.
+        Example: Survey response, direct observations.
+   b) Secondary Variable
+      - Collected from existing records or databases.
+        Example: Census data, published research reports.
 
+**Diagram:**
                 +--------------------+
                 |      Variables      |
                 +--------------------+
@@ -168,3 +183,255 @@ A variable is any characteristic, number, or quantity that can be measured or co
 | Nominal    |                     | Discrete       | Continuous     |
 | (Labels)   |                     | (Countable)    | (Measurable)   |
 +------------+                     +----------------+----------------+
+
+# ==================================
+#    Variable measurement scales
+# ==================================
+
+Definition: Variable measurement scales determine how variables are categorized, ranked, or measured. 
+
+There are four types: Nominal, Ordinal, Interval, and Ratio.
+
+1. Nominal Scale (Qualitative)
+   - Used for labelling or categorizing variables without any specific order.
+   - Characteristics:
+      - No numerical value.
+      - No ranking/order.
+   Examples:
+      Eye Color → {Blue, Brown, Green}
+      Blood Type → {A, B, AB, O}
+
+2. Ordinal Scale (Qualitative)
+   - Used for ranking or ordering variables, but the difference between values is't measurable.
+   - Characteristics:
+      - Has a meaningful order(ranking)
+      - Difference between values are not equal.
+   - Examples
+         Education Level → {High School < Bachelor's < Master's < PhD}
+         Customer Satisfaction → {Poor < Average < Good < Excellent}
+
+
+3. Interval Scale(Quantitative)
+   - Measures variables where the difference between values is meaningful, but there is no true zero.
+   - Characteristics:
+      - Equal interval between values.
+      - No True zero (Zero doesn't mean absence)
+   - Examples
+      Temperature → {-10°C, 0°C, 10°C, 20°C}  (0°C does not mean no temperature)
+      IQ Scores → {85, 100, 115, 130}
+
+4. Ratio Scale(Quantitative)
+   - Measures variables with a true zero, where ratios between values make sense.
+   - Characteristics:
+      - Has equal intervals
+      - Has a true zero(Zero means absence)
+      - Can perform all mathematical operations(addition, subtraction, multiplication, division)
+   - Examples:
+      - Height (0 cm means no height)
+      - Weight (0 kg means no weight)
+      - Salary ($0 means no earnings)
+      - Distance traveled (0 Km means no movement)
+      
+      Height → {0 cm, 50 cm, 100 cm}
+      Weight → {0 kg, 10 kg, 20 kg}
+      Salary → {$0, $1000, $5000}
+
+| Scale Type | Type        | Order?  | Equal Intervals?| True Zero?| Example                                      |
+|------------|-------------|---------|-----------------|-----------|----------------------------------------------|
+| Nominal    | Qualitative | ❌ No   | ❌ No           | ❌ No      | Eye color, Car brands, Blood type           |
+| Ordinal    | Qualitative | ✅ Yes  | ❌ No           | ❌ No      | Education level, Race positions             |
+| Interval   | Quantitative| ✅ Yes  | ✅ Yes          | ❌ No      | Temperature (Celsius, Fahrenheit), IQ score |
+| Ratio      | Quantitative| ✅ Yes  | ✅ Yes          | ✅ Yes     | Height, Weight, Salary                      |
+
+# ==================================
+#      FREQUENCY DISTRIBUTION
+# ==================================
+
+## Definition:
+Frequency distribution is a table or graph that displays how often each value or range of values occurs in a dataset.
+It helps in organizing raw data for better analysis and visualization.
+
+## Types of Frequency Distribution:
+1. Ungrouped Frequency Distribution – Lists each data value individually with its frequency.
+2. Grouped Frequency Distribution – Groups data into intervals (or classes) to simplify representation.
+
+## Example of Frequency Distribution Table:
+
+### Ungrouped Frequency Table
+----------------------------------
+| Value  | Frequency (Count) |
+----------------------------------
+| 1      | 2               |
+| 2      | 4               |
+| 3      | 6               |
+| 4      | 3               |
+| 5      | 5               |
+----------------------------------
+
+### Grouped Frequency Table (Class Intervals)
+--------------------------------------------
+| Class Interval | Frequency (Count) |
+--------------------------------------------
+| 0 - 9         | 5                |
+| 10 - 19       | 8                |
+| 20 - 29       | 12               |
+| 30 - 39       | 7                |
+| 40 - 49       | 3                |
+--------------------------------------------
+
+## Histogram Representation:
+A histogram is a bar graph that represents a frequency distribution. Each bar represents the frequency of values in a given interval.
+
+
+# ==================================
+#    CUMULATIVE FREQUENCY
+# ==================================
+
+## Definition:
+Cumulative frequency is the running total of frequencies as you move through a frequency distribution table. 
+It helps in understanding the number of observations below a particular value.
+
+## Types of Cumulative Frequency:
+1. **Less than Cumulative Frequency:** Represents the total number of observations up to a certain class limit.
+2. **More than Cumulative Frequency:** Represents the total number of observations above a certain class limit.
+
+## Example of Cumulative Frequency Table:
+
+### Less than Cumulative Frequency
+--------------------------------------------
+| Class Interval | Frequency | Cumulative Frequency (Less than) |
+--------------------------------------------
+| 0 - 9         | 5         | 5                                |
+| 10 - 19       | 8         | 13                               |
+| 20 - 29       | 12        | 25                               |
+| 30 - 39       | 7         | 32                               |
+| 40 - 49       | 3         | 35                               |
+--------------------------------------------
+
+### More than Cumulative Frequency
+--------------------------------------------
+| Class Interval | Frequency | Cumulative Frequency (More than) |
+--------------------------------------------
+| 0 - 9         | 5         | 35                                |
+| 10 - 19       | 8         | 30                                |
+| 20 - 29       | 12        | 22                                |
+| 30 - 39       | 7         | 10                                |
+| 40 - 49       | 3         | 3                                 |
+--------------------------------------------
+
+## Ogive Curve:
+A graphical representation of cumulative frequency distribution using line graphs.
+- **Less than Ogive** is plotted using the upper boundary of class intervals.
+- **More than Ogive** is plotted using the lower boundary of class intervals.
+
+# ==================================
+#       BAR CHARTS & HISTOGRAMS
+# ==================================
+
+1. **Bar Chart**  
+   - A bar chart is used for categorical data where each category is represented by a bar.
+   - The height of the bar corresponds to the frequency or count of the category.
+   - Bars are separate, indicating distinct categories.
+   - Used for qualitative (categorical) data.
+
+   Example:
+   Category A: ████
+   Category B: ████████
+   Category C: ██████
+
+2. **Histogram**  
+   - A histogram represents continuous numerical data divided into intervals (bins).
+      Example: Student age distribution
+
+               Bin 1 (0-10)  : ████
+               Bin 2 (10-20) : ████████
+               Bin 3 (20-30) : ██████
+   - Bars touch each other, representing continuous data.
+   - Used for quantitative (numerical) data.
+
+# ==================================
+#       OGIVE CURVE
+# ==================================
+## Definition:
+An ogive is a cumulative frequency graph that helps visualize how data accumulates over intervals.
+
+### Types of Ogive:
+1. Less than Ogive - Plots cumulative frequency of values "less than" each class boundary.
+2. More than Ogive - Plots cumulative frequency of values "more than" each class boundary.
+
+### Example: Less than Ogive Table
+| Class Interval | Frequency | Cumulative Frequency (Less than) |
+|---------------|-----------|----------------------------------|
+| 0 - 10       | 4         | 4                                |
+| 10 - 20      | 6         | 10                               |
+| 20 - 30      | 8         | 18                               |
+| 30 - 40      | 12        | 30                               |
+
+### Example: More than Ogive Table
+| Class Interval | Frequency | Cumulative Frequency (More than) |
+|---------------|-----------|----------------------------------|
+| 0 - 10       | 4         | 30                               |
+| 10 - 20      | 6         | 26                               |
+| 20 - 30      | 8         | 20                               |
+| 30 - 40      | 12        | 12                               |
+
+### Graph Interpretation
+- The ogive curve is a rising curve.
+- The point where the "Less than" and "More than" ogives intersect gives the median of the data.
+
+# ==================================
+#       PDF & KDE
+# ==================================
+
+1. Probability Density Function (PDF)
+   - Represents how probability is distributed over continuous variables.
+   - The total area under the curve equals 1.
+
+2. Kernel Density Estimation (KDE)
+   - A smoothed version of a histogram.
+   - Provides better visualization of data distribution.
+   - Avoids the sharp edges seen in histograms.
+
+# ==================================
+#      MEASURES OF CENTRAL TENDENCY
+# ==================================
+
+## 1. MEAN (AVERAGE)
+- Definition: The sum of all values divided by the number of values.
+- Formula: Mean (μ) = (ΣX) / N
+- Example:
+  Data: 2, 4, 6, 8, 10
+  Mean = (2 + 4 + 6 + 8 + 10) / 5 = 6
+
+## 2. MEDIAN (MIDDLE VALUE)
+- Definition: The middle value when data is arranged in ascending order.
+- Steps:
+  1. Arrange data in order.
+  2. If odd number of values: Middle one is the median.
+  3. If even number of values: Median = (Middle1 + Middle2) / 2
+- Example:
+  Data: 1, 3, 7, 9, 12
+  Median = 7 (Middle value)
+
+  Data: 1, 3, 7, 9, 12, 14
+  Median = (7 + 9) / 2 = 8
+
+## 3. MODE (MOST FREQUENT VALUE)
+- Definition: The value that appears most frequently in the dataset.
+- Example:
+  Data: 2, 3, 3, 5, 7, 8, 8, 8, 9
+  Mode = 8 (Most repeated number)
+
+- Types of Mode:
+  - **Unimodal:** One mode (e.g., 3, 3, 5, 7 → Mode = 3)
+  - **Bimodal:** Two modes (e.g., 2, 2, 5, 5, 7 → Modes = 2, 5)
+  - **Multimodal:** More than two modes.
+
+# SUMMARY TABLE
+
+| Measure    | Definition                      | Example (Data: 2, 3, 3, 5, 7, 8, 8, 8, 9) |
+|------------|---------------------------------|-------------------------------------------|
+| **Mean**   | Average value                   | (2+3+3+5+7+8+8+8+9) / 9 = 5.88            |
+| **Median** | Middle value                    | (7)                                       |
+| **Mode**   | Most frequent value             | 8 (appears 3 times)                       |
+
