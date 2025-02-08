@@ -395,37 +395,66 @@ An ogive is a cumulative frequency graph that helps visualize how data accumulat
 # ==================================
 #      MEASURES OF CENTRAL TENDENCY
 # ==================================
+Measure of Central Tendency is refers to the measure used to determine the center of the
+distribution of the data.
 
 ## 1. MEAN (AVERAGE)
-- Definition: The sum of all values divided by the number of values.
-- Formula: Mean (μ) = (ΣX) / N
-- Example:
-  Data: 2, 4, 6, 8, 10
-  Mean = (2 + 4 + 6 + 8 + 10) / 5 = 6
+   - Definition: The sum of all values divided by the number of values.
+   - Formula: Mean (μ) = (ΣX) / N
+      - Example:
+        Data: 2, 4, 6, 8, 10
+        Mean = (2 + 4 + 6 + 8 + 10) / 5 = 6
+   - Effect of Outliers:
+     - A very large or very small number in the dataset can **pull** the mean towards it.
+     - Example:
+       Data: 2, 4, 6, 8, **50**  
+       Mean = (2 + 4 + 6 + 8 + 50) / 5 = **14** (Inflated by 50, an outlier)
 
 ## 2. MEDIAN (MIDDLE VALUE)
-- Definition: The middle value when data is arranged in ascending order.
-- Steps:
-  1. Arrange data in order.
-  2. If odd number of values: Middle one is the median.
-  3. If even number of values: Median = (Middle1 + Middle2) / 2
-- Example:
-  Data: 1, 3, 7, 9, 12
-  Median = 7 (Middle value)
-
-  Data: 1, 3, 7, 9, 12, 14
-  Median = (7 + 9) / 2 = 8
+   - Definition: The middle value when data is arranged in ascending order.
+   - Steps:
+     1. Arrange data in order.
+     2. If odd number of values: Middle one is the median.
+     3. If even number of values: Median = (Middle1 + Middle2) / 2
+      - Example:
+        Data: 1, 3, 7, 9, 12
+        Median = 7 (Middle value)
+      
+        Data: 1, 3, 7, 9, 12, 14
+        Median = (7 + 9) / 2 = 8
+    4. Effect of Outliers:
+        - Median is **not affected** by extreme values.
+        - Example:
+          Data: 1, 3, 7, 9, **1000**  
+          Median = **7** (Unaffected by 1000)
 
 ## 3. MODE (MOST FREQUENT VALUE)
-- Definition: The value that appears most frequently in the dataset.
-- Example:
-  Data: 2, 3, 3, 5, 7, 8, 8, 8, 9
-  Mode = 8 (Most repeated number)
+   - Definition: The value that appears most frequently in the dataset.
+   - Example:
+     Data: 2, 3, 3, 5, 7, 8, 8, 8, 9
+     Mode = 8 (Most repeated number)
+   
+   - Types of Mode:
+     - **Unimodal:** One mode (e.g., 3, 3, 5, 7 → Mode = 3)
+     - **Bimodal:** Two modes (e.g., 2, 2, 5, 5, 7 → Modes = 2, 5)
+     - **Multimodal:** More than two modes.
 
-- Types of Mode:
-  - **Unimodal:** One mode (e.g., 3, 3, 5, 7 → Mode = 3)
-  - **Bimodal:** Two modes (e.g., 2, 2, 5, 5, 7 → Modes = 2, 5)
-  - **Multimodal:** More than two modes.
+   - Effect of Outliers:
+     - Mode is **not influenced** by extreme values.
+     - Example:
+       Data: 1, 3, 3, 3, 7, **1000**  
+       Mode = **3** (Unaffected by 1000)
+
+# OUTLIERS
+   - **Definition:** An **outlier** is an unusually high or low value compared to the rest of the data.
+   - **Detection Methods:**
+     - **IQR Method (Interquartile Range):**
+       - If a value is **below Q1 - 1.5 × IQR** or **above Q3 + 1.5 × IQR**, it is an outlier.
+     - **Z-score Method:**
+       - If a value’s **Z-score is > ±3**, it is considered an outlier.
+   - **Example:**
+     Data: 1, 2, 3, 4, **100**  
+     Outlier: **100** (Far from other values)
 
 # SUMMARY TABLE
 
